@@ -13,7 +13,7 @@ fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Teachers")
              <p class="text">${el.name}</p>
             <a class="data" href="#">${new Date(el.createdAt).toLocaleDateString()}</a>
     </div>
-        `).json("");
+        `).join("");
         wrapper.innerHTML = card;
  }
  
