@@ -15,10 +15,11 @@
 }
 .card{
     max-width: 100%;
-    min-height: 400px;
+    min-height: 300px;
     border: 1px solid gray;
      border-radius: 20px;
      text-align: center;
+     box-shadow: 4px 6px 10px 10px gray;
 }
 .rasm{
     width: 100%;
