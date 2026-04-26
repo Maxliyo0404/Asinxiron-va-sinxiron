@@ -6,5 +6,7 @@ fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Teachers")
     
 })
  function renderData(){
-    const
+    const card = data.map(el => `{
+        
+        }`)
  }
