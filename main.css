@@ -16,6 +16,8 @@
 .card{
     max-width: 100%;
     border: 1px solid gray;
+     border-radius: 20px;
+     text-align: center;
 }
 .rasm{
     width: 100%;
