@@ -5,7 +5,7 @@ fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Teachers")
 .then(data => {
     
 })
- function renderData(){
+ function renderData(data){
     const card = data.map(el => `{
         <div class="card">
             <img src="${el.avatar}" alt="${el.name}">
@@ -15,3 +15,4 @@ fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Teachers")
         }`).json("");
         wrapper.innerHTML = card;
  }
+  renderData(data);
